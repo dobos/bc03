@@ -391,7 +391,8 @@
 	write (lun+86,108) tl,vmag,kmag,                 (col(i),i=54,64),cly,blr,vlr,klr
 	write (lun+87,109) tl,vmag,                      (col(i),i=65,80)
 	write (lun+88,108) tl,vmag,kmag,                 (col(i),i=81,92),cly,blr,vlr,klr
-	write (lun+17,171) tl,mabo(ic),mbel(ic),mabo(ic)+mbel(ic),mcut
+!	write (lun+17,171) tl,mabo(ic),mbel(ic),mabo(ic)+mbel(ic),mcut
+	write (lun+17,171) tl,0.0,0.0,0.0,0.0
 101	format (f10.6,14f10.4,1pe13.4)
 102	format (f10.6,3f10.4,f10.2,3x,3f10.4,2x,f10.4,1p7e12.4)
 103	format (f10.6,4f10.4,1p6e13.4,1x,6e12.4)
