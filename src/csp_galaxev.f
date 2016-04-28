@@ -186,7 +186,7 @@
 !	if ((io.ne.2.and.tcut.lt.20.E9).or.(io.eq.2.and.tcut.gt.2.E9)) call expand_time_steps
 	if ((io.ne.2.and.tcut.lt.20.E9).or.(io.eq.2                 )) call expand_time_steps
 	if (io.eq.7) call add_time_steps
-	
+
 !	Ask for output file name. Open files.
 !	Write time scale, IMF, and wavelength scale in output file
 	lun=-1
@@ -283,6 +283,7 @@
 !	Write command file to delete unwnated files
 	call delete_files(name,inl,1)
 	call file_w_ages(-1,name,zu,tb(n),w,h,inl,ufwa,gfwa,rfwa,ifwa,zfwa,kfwa,mwa,ufwla,gfwla,rfwla,ifwla,zfwla,kfwla,mwla)
+	stop
 	goto 1
 
 3	write (6,'(x,5a)') char(7),'File ',name(1:largo(name)),' not found',char(7)
