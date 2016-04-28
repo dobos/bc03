@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="csp_galaxev" />
+		<Option pch_mode="2" />
+		<Option compiler="gfortran" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/csp_galaxev" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gfortran" />
+				<Option parameters="op_p99_.ised" />
+				<Compiler>
+					<Add option="-g" />
+					<Add option="-std=legacy -ffixed-line-length-none -fcheck=all -Wunused -Wuninitialized" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/bc12" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gfortran" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-mcmodel=medium" />
+		</Compiler>
+		<Unit filename="src/b4000.f" />
+		<Unit filename="src/b912.f" />
+		<Unit filename="src/bh_ix_sed.f" />
+		<Unit filename="src/chabimf.f" />
+		<Unit filename="src/chaext.f" />
+		<Unit filename="src/chelium.f" />
+		<Unit filename="src/clyman.f" />
+		<Unit filename="src/convolve_new.f" />
+		<Unit filename="src/copyright.f" />
+		<Unit filename="src/cosmol_c.f" />
+		<Unit filename="src/csp_galaxev.f" />
+		<Unit filename="src/dattim.f" />
+		<Unit filename="src/delete_files.f" />
+		<Unit filename="src/ew_balmer.f" />
+		<Unit filename="src/expand_time_steps.f" />
+		<Unit filename="src/file_header.f" />
+		<Unit filename="src/file_w_ages.f" />
+		<Unit filename="src/filter_n.f" />
+		<Unit filename="src/gal_mass.f" />
+		<Unit filename="src/gc_d4000.f" />
+		<Unit filename="src/gw_etal_dat.f" />
+		<Unit filename="src/gw_indices.f" />
+		<Unit filename="src/gw_ix_sed.f" />
+		<Unit filename="src/gw_ix_sed_lick_system.f" />
+		<Unit filename="src/gw_thesis_dat.f" />
+		<Unit filename="src/interpolate_ssp.f" />
+		<Unit filename="src/iplace.f" />
+		<Unit filename="src/largo.f" />
+		<Unit filename="src/linear.f" />
+		<Unit filename="src/locate.f" />
+		<Unit filename="src/midpnt.f" />
+		<Unit filename="src/mixfilenames.f" />
+		<Unit filename="src/name_sed.f" />
+		<Unit filename="src/nargu.f" />
+		<Unit filename="src/no_bl.f" />
+		<Unit filename="src/percent.f" />
+		<Unit filename="src/pgas.f" />
+		<Unit filename="src/rf_color.f" />
+		<Unit filename="src/rminim.f" />
+		<Unit filename="src/s500.f" />
+		<Unit filename="src/sdss_color.f" />
+		<Unit filename="src/sfr.f" />
+		<Unit filename="src/sfr_0_b.f" />
+		<Unit filename="src/smthpl.f" />
+		<Unit filename="src/sort.f" />
+		<Unit filename="src/sort2.f" />
+		<Unit filename="src/t.f" />
+		<Unit filename="src/trapez.f" />
+		<Unit filename="src/trapz1.f" />
+		<Unit filename="src/trapz2.f" />
+		<Unit filename="src/trapz3.f" />
+		<Unit filename="src/trapz_lr.f" />
+		<Unit filename="src/usort.f" />
+		<Unit filename="src/usrsfr.f" />
+		<Unit filename="src/xreverse.f" />
+		<Unit filename="src/ymag2.f" />
+		<Unit filename="src/zx.f" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
